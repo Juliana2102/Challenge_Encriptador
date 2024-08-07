@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     btnCopiar.addEventListener('click', function() {
         mensagem.select();
-        document.execCommand('copy');
+    
     });
 });
